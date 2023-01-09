@@ -22,20 +22,15 @@ __Columns__:
 
 __Queries__:
 
-1. SELECT
-
+#### SELECT
     SELECT * FROM `data` LIMIT 10
-    
     SELECT DISTINCT `Username` FROM `data`
 
-2. WHERE
-
+#### WHERE
     SELECT `Tweet`, `Likes` FROM `data` WHERE `Likes` == 0
-    
     SELECT `Tweet`, `Likes` FROM `data` WHERE `Likes` < 100000
-    
     SELECT `Tweet`, `Likes` FROM `data` WHERE `Likes` >= 100000
 
-3. AND, OR, NOT
+#### AND, OR, NOT
     
     
