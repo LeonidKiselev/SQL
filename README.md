@@ -20,6 +20,8 @@ __Columns__:
   `Hashtags`
 .
 
+__Queries__:
+
 1. SELECT
     SELECT * FROM `data` LIMIT 10
     SELECT DISTINCT `Username` FROM `data`
