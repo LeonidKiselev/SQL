@@ -67,7 +67,7 @@ __Columns__:
 ### String Functions
 
 #### REPLACE
-    SELECT *, REPLACE(`Username`, 'elonmusk', 'Elon Musk') AS `User` FROM `data`
+    SELECT *, REPLACE(`Username`, 'elon' || 'musk', 'Elon Musk') AS `User` FROM `data`
 
 #### CHARINDEX, SUBSTRING
     SELECT *, SUBSTRING(`Username`, 1, CHARINDEX(' ', `User`) - 1) AS `Name` FROM `data`
