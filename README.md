@@ -20,7 +20,7 @@ __Columns__:
   `Hashtags`
 .
 
-### Syntax
+## Syntax
 
 #### SELECT
     SELECT DISTINCT * FROM `data` LIMIT 10
@@ -58,7 +58,7 @@ __Columns__:
 #### CAST
     SELECT *, CAST(`Date` AS datetime) AS `Datetime` FROM `data`
 
-### Aggregate Functions
+## Aggregate Functions
 
 #### COUNT
     SELECT *, COUNT(`Tweet`) AS `Tweet Count` FROM `data` GROUP BY `Username`
@@ -67,7 +67,7 @@ __Columns__:
 #### AVG
     SELECT `Date`, AVG(`Likes`) AS `Likes Avg` FROM `data` WHERE `Date` > '2021-12-00' GROUP BY `Date` HAVING `Likes Avg` > 10000 ORDER BY `Likes Avg` DESC
 
-### String Functions
+## String Functions
 
 #### REPLACE
     SELECT *, REPLACE(`Username`, 'elon' || 'musk', 'Elon Musk') AS `User` FROM `data`
@@ -78,7 +78,7 @@ __Columns__:
 #### SPLIT
     SELECT *, SPLIT(`Tweet`, ' ') AS `Words` FROM `data`
 
-### List Functions
+## List Functions
 
 #### EXPLODE
     SELECT *, EXPLODE(`Mentioned Users`) AS `Mentioned` FROM `data`
