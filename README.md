@@ -52,6 +52,9 @@ __Columns__:
     SELECT * FROM `data` WHERE ` ` IN (0, 1, 2)
     SELECT * FROM `data` WHERE `Date` BETWEEN '2021-11-00' AND '2021-12-00'
 
+#### CREATE TABLE, UNION ALL
+    CREATE TABLE `union` AS (SELECT * FROM `T1`) UNION ALL (SELECT * FROM `T2`)
+
 ### Aggregate Functions
 
 #### COUNT
