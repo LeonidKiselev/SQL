@@ -55,6 +55,9 @@ __Columns__:
 #### CREATE TABLE, UNION ALL
     CREATE TABLE `union` AS (SELECT * FROM `T1`) UNION ALL (SELECT * FROM `T2`)
 
+#### CAST
+    SELECT *, CAST(`Date` AS datetime) AS `Datetime` FROM `data`
+
 ### Aggregate Functions
 
 #### COUNT
