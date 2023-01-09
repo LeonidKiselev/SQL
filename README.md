@@ -6,27 +6,15 @@
 `Elon 2021-2022` to `data`
 
 Columns:
-
-  ``
-  
+  ` `
   `Date`
-  
   `Username`
-  
   `Tweet`
-  
   `URL`
-  
   `Media`
-  
   `Likes`
-  
   `Retweets`
-  
   `Quote`
-  
   `Replies`
-  
   `Mentioned Users`
-  
   `Hashtags`
